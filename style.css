@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background:black;
+    background-size:cover;
+
+}
+.container{
+   overflow: hidden;
+    width:100%;
+    height:100vh;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.container h2{
+    position: relative;
+    font-size: 4rem;
+    color:beige;
+}
+#moon{
+    height:50%;
+    position:absolute;
+    width:30%;
+    top:40px;
+    left:60px;
+}
+
+#sun{
+    width:45%;
+    height:50%;
+    position:absolute;
+    bottom:60px;
+    right: 50px   
+}
